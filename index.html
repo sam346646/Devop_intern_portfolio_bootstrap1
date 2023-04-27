@@ -17,9 +17,9 @@
 </head>
 <body>
     <div class="bgimg">
-
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a href="" class="navbar-brand text-warning font-weight-bold">Sam Manasseh</a>
+    <!-- Navigation menu bar -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a href="#home" class="navbar-brand text-warning font-weight-bold">Sam Manasseh</a>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#main_menu">
                 <span class="navbar-toggler-icon"></span>
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="main_menu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Services</a>
+                        <a href="#services" class="nav-link text-white">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Portfolio</a>
+                        <a href="#portfolio" class="nav-link text-white">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Team</a>
+                        <a href="#team" class="nav-link text-white">Team</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Contact</a>
@@ -46,7 +46,7 @@
             </div>
         </nav>
 
-        <div class="container text-center headerset text-white">
+        <div class="container text-center headerset text-white" id="home">
             <h3>Welcome to our studio!</h3>
             <h1>Nice to <span class="text-warning font-weight-bold">MEET YOU <i class="fa fa-hand-paper-o"></i></span></h1>
             <button class="btn btn-warning text-white font-weight-bold btn-lg">Subscribe</button>
@@ -54,7 +54,7 @@
 
     </div>
     <!----------------------Services--------------------------------------->
-    <section class="container service_container text-center">
+    <section class="container service_container text-center" id="services">
 
         <h1 class="font-weight-bold">Services</h1>
         <h4>We provide different services</h4>
@@ -83,7 +83,7 @@
 
 
     <!----------------------Portfolio--------------------------------------->
-    <section class="portfolio_container bg-light pt-5">
+    <section class="portfolio_container bg-light pt-5" id="portfolio">
         <div class="container text-center font-weight-bold">
             <h1 class="font-weight-bold">Portfolio</h1>
             <h4>I build things for the web</h4>
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/education.png" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">Education</h2>
                             <p class="card-text">MCA</p>
@@ -101,7 +101,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/webdesign.png" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">Explore</h2>
                             <p class="card-text">Web design</p>
@@ -111,7 +111,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/coding.jpg" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">Coding</h2>
                             <p class="card-text">Java</p>
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/e commerce.png" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">AL-STORE</h2>
                             <p class="card-text">E-commerce web design</p>
@@ -133,17 +133,17 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/cricket.png" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">Hobbies</h2>
-                            <p class="card-text">Photography</p>
+                            <p class="card-text">Playing cricket</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
                     <div class="card">
-                        <img src="image/bgimage.jpeg" alt="" class="card-img img-fluid">
+                        <img src="image/bangalore.jpg" alt="" class="card-img img-fluid">
                         <div class="card-body">
                             <h2 class="card-title">Living</h2>
                             <p class="card-text">Bangalore</p>
@@ -156,20 +156,48 @@
     </section>
 
 
-    <!----------------------Our gteam--------------------------------------->
-    <section class="ourteam_container mt-5">
+    <!----------------------Our team--------------------------------------->
+    <section class="ourteam_container mt-5" id="team">
         <div class="container text-center font-weight-bold">
             <h1 class="font-weight-bold">Our Amazing Team</h1>
             <h4 class="mb-5">Together we define.</h4>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
-                    <figure>
-                        <img src="image/bgimage.jpeg" alt="" class="figure-img img-fluid rounded-circle" width="250px" height="250px">
+                    <figure class="figure">
+                        <img src="image/sam.png" alt="" class="figure-img img-fluid rounded-circle" width="250px" height="250px">
+                        <figcaption>
+                            <h4>Sam Manasseh</h4>
+                            <p class="figure-caption">Web developer</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <figure class="figure">
+                        <img src="image/rakesh.jpg" alt="" class="figure-img img-fluid rounded-circle" width="250px" height="250px">
+                        <figcaption>
+                            <h4>Rakesh GK</h4>
+                            <p class="figure-caption">Web developer</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <figure class="figure">
+                        <img src="image/varun.jpeg" alt="" class="figure-img img-fluid rounded-circle" width="250px" height="250px">
+                        <figcaption>
+                            <h4>Varun M</h4>
+                            <p class="figure-caption">Web developer</p>
+                        </figcaption>
                     </figure>
                 </div>
             </div>
         </div>
     </section>
+    <!-- About us -->
+    <footer class="bg-light p-3">
+        <h6 class="text-center">Copyright @ 2023, Design by Sam Manasseh</h6>
+    </footer>
 
 </body>
 </html>

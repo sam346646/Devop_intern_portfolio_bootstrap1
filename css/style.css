@@ -1,5 +1,5 @@
 .bgimg{
-    background-image: url(image/bgimage.jpeg);
+    background-image: url(image/bgimage.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
     width: 100%;
@@ -12,7 +12,7 @@
 
 .service_container{
     padding: 80px 0px 50px;
-    height:600px;
+    height:550px;
 }
 .icon_setting{
     border-radius: 50%;
@@ -30,7 +30,72 @@
     margin-top:20px;
 }
 .portfolio_container{
-    height:950px;
+    height:850px;
     width:100%;
     
+}
+
+/*our team */
+.ourteam_container{
+    height:450px;
+    width:100%;
+    margin-bottom: 40px;
+}
+
+/* responsive */
+@media(min-width:601px) and (max-width:770px){
+    .portfolio_container{
+        height:700px;        
+    }
+}
+@media(min-width:425px) and (max-width:600px){
+    .service_container{
+        height:1000px;
+    }
+    .portfolio_container{
+        height:2100px;        
+    }
+    .ourteam_container{
+        height:1100px;
+    }
+    .headerset h1{
+        font-size: 25px;
+    }
+    .headerset h3{
+        font-size: 20px;
+    }
+}
+@media(min-width:375px) and (max-width:424px){
+    .service_container{
+        height:1100px;
+    }
+    .portfolio_container{
+        height:2000px;        
+    }
+    .ourteam_container{
+        height:1150px;
+    }
+    .headerset h1{
+        font-size: 25px;
+    }
+    .headerset h3{
+        font-size: 20px;
+    }
+}
+@media(min-width:320px) and (max-width:374px){
+    .service_container{
+        height:1250px;
+    }
+    .portfolio_container{
+        height:1800px;        
+    }
+    .ourteam_container{
+        height:1150px;
+    }
+    .headerset h1{
+        font-size: 25px;
+    }
+    .headerset h3{
+        font-size: 20px;
+    }
 }
